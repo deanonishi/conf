@@ -5,6 +5,19 @@
   "name": "about_me",
   "maintainer_email": "YOUR_EMAIL",
   "attributes": {
+    "about_me/favorite/hobby": {
+      "required": "required",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+        "about_me::default"
+      ],
+      "display_name": "Hobby",
+      "description": "My favorite hobby."
+    }
   },
   "license": "All rights reserved",
   "suggestions": {
